@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "a6caf850a8f437892c60",
-    "url": "./static/css/main.b843f877.chunk.css"
+    "revision": "9226830c28e2197bd09e",
+    "url": "./static/css/main.91031114.chunk.css"
   },
   {
-    "revision": "a6caf850a8f437892c60",
-    "url": "./static/js/main.a6caf850.chunk.js"
+    "revision": "9226830c28e2197bd09e",
+    "url": "./static/js/main.9226830c.chunk.js"
   },
   {
     "revision": "d9238f986b39678bb14a",
@@ -104,7 +104,11 @@ self.__precacheManifest = [
     "url": "./static/media/WhatsApp Image 2022-10-19 at 5.40.28 PM.112f472f.jpeg"
   },
   {
-    "revision": "26302a45888bbf0daeecbb733dd17bdb",
+    "revision": "120061b4fba0dd94468a11f96fbebda0",
+    "url": "./static/media/background-image.120061b4.jpg"
+  },
+  {
+    "revision": "6cb784112cd761ed2066b09693110360",
     "url": "./index.html"
   }
 ];
