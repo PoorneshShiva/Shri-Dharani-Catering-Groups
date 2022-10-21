@@ -1,0 +1,13 @@
+:root {
+	--background-color: #faf9dc;
+
+	--primary-color: #0afa56;
+	--secondary-color: #2093fa;
+	--light-color: #fac670;
+	--extra-color: #9c55fa;
+	--heading-font: "Bungee", cursive;
+	--paragraph-font: "Signika Negative", sans-serif;
+	--naming-font: "Itim", cursive;
+	--special-font: "Spline Sans Mono", monospace;
+	--modern-font: "Patrick Hand SC", cursive;
+}

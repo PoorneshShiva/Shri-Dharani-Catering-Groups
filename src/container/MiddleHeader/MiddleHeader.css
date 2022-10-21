@@ -1,0 +1,126 @@
+@import "../../common.css";
+#container-middle {
+	/* background-color: darkgray; */
+	/* margin-left: 25%; */
+	display: flex;
+	flex-wrap: wrap;
+	height: 4rem;
+	margin-top: 20px;
+	align-items: center;
+	justify-content: end;
+	/* justify-items: end; */
+}
+.hidden {
+	display: none;
+	height: 50px;
+	width: 35px;
+	font-size: 20px;
+	margin-right: 5rem;
+	/* vertical-align: middle; */
+	padding-top: 25px;
+	/* align-items: center; */
+	justify-items: center;
+	/* margin-top: auto; */
+}
+a {
+	text-decoration: none;
+	border: 0px none;
+}
+
+.links {
+	display: flex;
+	justify-items: center;
+	align-items: center;
+	font-size: 30px;
+	padding: 0 55px;
+	height: 100%;
+	color: red;
+	font-family: var(--modern-font);
+}
+.hidden button {
+	border: 0px transparent;
+	background-color: var(--primary-color);
+	height: 35px;
+	width: 100%;
+	font-size: 45px;
+}
+
+.switcher {
+	display: flex;
+	padding: 20px 0 20px 0;
+	align-items: center;
+	justify-content: center;
+	color: red;
+	font-size: 20px;
+	font-family: var(--modern-font);
+}
+
+.mobile-nav-list {
+	display: none;
+	position: absolute;
+	top: 140px;
+	right: 0px;
+	background-color: var(--light-color);
+	width: 0px;
+	height: 100%;
+	opacity: 1;
+	font-style: var(--paragraph-font);
+
+	/* animation: rem 1s; */
+	transition: width 1000ms ease-in-out;
+	/* padding-top: 50px; */
+}
+
+.mobile-nav-list.active {
+	width: 250px;
+	display: inline-block;
+}
+
+@media (max-width: 1274px) {
+	.hidden {
+		display: inline-block;
+	}
+	#container-middle {
+		display: none;
+	}
+	.hidden {
+		display: block;
+		margin-right: 2.5rem;
+	}
+	.mobile-nav-list {
+		/* display: block; */
+	}
+}
+
+@media (max-width: 520px) {
+	.hidden {
+		/* display: none; */
+		margin-right: 2.5rem;
+		/* height: 100px; */
+		height: 20px;
+		padding-top: 0px;
+		margin-top: -20px;
+	}
+	.button {
+		height: 5px;
+	}
+}
+@media (max-width: 378px) {
+	.hidden {
+		display: block;
+		margin-right: 1.5rem;
+	}
+	.hidden button {
+		font-size: 40px;
+	}
+}
+@media (max-width: 307px) {
+	.hidden {
+		display: none;
+		margin-right: 0.5rem;
+		/* margin-right: 5px; */
+	}
+	.hidden button {
+		font-size: 32px;
+	}
+}

@@ -1,0 +1,96 @@
+:root {
+	--background-color: #faf9dc;
+
+	--primary-color: #0afa56;
+	--secondary-color: #2093fa;
+	--light-color: #fac670;
+	--extra-color: #9c55fa;
+	--heading-font: "Bungee", cursive;
+	--paragraph-font: "Signika Negative", sans-serif;
+	--naming-font: "Itim", cursive;
+	--special-font: "Spline Sans Mono", monospace;
+	--modern-font: "Patrick Hand SC", cursive;
+}
+.footer {
+	background-color: var(--secondary-color);
+	margin: 0 auto;
+}
+#social-media-container {
+	/* background-color: red; */
+	margin: 20px 50px;
+	margin-left: 0px;
+	display: grid;
+
+	grid-template-columns: 1fr 1fr;
+	/* gap: 20px; */
+	justify-content: center;
+	padding-top: 20px;
+	width: 100%;
+}
+.whatsapp a {
+	color: var(--primary-color);
+}
+.social-media {
+	padding: 20px;
+	font-style: var(--naming-font);
+
+	/* border-radius: 50%; */
+	/* background-color: black; */
+}
+#copyright {
+	justify-content: center;
+	align-items: center;
+	display: flex;
+
+	font-size: 16px;
+	font-family: var(--naming-font);
+}
+.title {
+	font-family: var(--naming-font);
+	font-size: 16px;
+}
+.social-media a {
+	text-decoration: none;
+
+	font-size: 20px;
+	padding: 0 12px;
+	color: rgb(34, 34, 34) !important;
+}
+.social-media-link {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	font-size: 10px;
+}
+
+@media (min-width: 320px) {
+	.social-media a,
+	.title {
+		font-size: 22px;
+	}
+}
+@media (min-width: 420px) {
+	#social-media-container {
+		grid-template-columns: 1fr 1fr 1fr;
+	}
+}
+@media (min-width: 540px) {
+	.social-media a {
+		font-size: 45px;
+	}
+	#social-media-container {
+		grid-template-columns: 1fr 1fr 1fr 1fr;
+		max-width: 737px;
+		margin: 0 auto;
+	}
+}
+@media (min-width: 918px) {
+	.social-media a {
+		font-size: 55px;
+	}
+	#social-media-container {
+		gap: 40px;
+	}
+}
