@@ -19,7 +19,7 @@ class App extends Component {
 					</div>
 				</React.Fragment>
 				<Routes>
-					<Route path="/home" element={<Home />} />
+					<Route path="/Shri-Dharani-Catering-Groups/home" element={<Home />} />
 					<Route path="/menu" element={<Menu />} />
 					<Route path="/contact" element={<Contact />} />
 					<Route path="/gallery" element={<Gallery />} />
