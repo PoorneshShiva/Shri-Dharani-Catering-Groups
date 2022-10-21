@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/PoorneshShiva/Shri-Dharani-Catering-Groups.git/precache-manifest.1a6e186f67d48366f097ee0c06524df7.js"
+  "/PoorneshShiva/Shri-Dharani-Catering-Groups/precache-manifest.70e45cfc86123358ebfbbd9e357cc8b7.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/PoorneshShiva/Shri-Dharani-Catering-Groups.git/index.html", {
+workbox.routing.registerNavigationRoute("/PoorneshShiva/Shri-Dharani-Catering-Groups/index.html", {
   
   blacklist: [/^\/_/,/\/[^/]+\.[^/]+$/],
 });
