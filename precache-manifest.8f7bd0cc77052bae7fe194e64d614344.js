@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "50a1e2fe08ac99a0b151",
+    "revision": "590661fb1bf632320ab6",
     "url": "./static/css/main.04455c01.chunk.css"
   },
   {
-    "revision": "50a1e2fe08ac99a0b151",
-    "url": "./static/js/main.50a1e2fe.chunk.js"
+    "revision": "590661fb1bf632320ab6",
+    "url": "./static/js/main.590661fb.chunk.js"
   },
   {
     "revision": "fe244b1eb13340a2d346",
@@ -22,26 +22,6 @@ self.__precacheManifest = [
   {
     "revision": "a681d8fb3e88a1b1ced2bcb79097d61c",
     "url": "./static/media/logo.a681d8fb.jpeg"
-  },
-  {
-    "revision": "94d71c95190b23f852f298fee7ef12d0",
-    "url": "./static/media/WhatsApp Image 2022-10-19 at 5.40.23 PM (1).94d71c95.jpeg"
-  },
-  {
-    "revision": "2e8c6c4ff5e8a2f68daee9cd992bd3d8",
-    "url": "./static/media/WhatsApp Image 2022-10-19 at 5.40.23 PM (2).2e8c6c4f.jpeg"
-  },
-  {
-    "revision": "08e1f29348bde6971808cde0319bd969",
-    "url": "./static/media/WhatsApp Image 2022-10-19 at 5.40.23 PM.08e1f293.jpeg"
-  },
-  {
-    "revision": "82321a8ecbad2dd626636b91866a7141",
-    "url": "./static/media/WhatsApp Image 2022-10-19 at 5.40.24 PM (1).82321a8e.jpeg"
-  },
-  {
-    "revision": "15289fd8e7c9633f3a2edc1bcf1fe728",
-    "url": "./static/media/WhatsApp Image 2022-10-19 at 5.40.24 PM.15289fd8.jpeg"
   },
   {
     "revision": "90d3e83668c6797436141f50d25da165",
@@ -76,6 +56,22 @@ self.__precacheManifest = [
     "url": "./static/media/image1.b5f74127.jpeg"
   },
   {
+    "revision": "2e8c6c4ff5e8a2f68daee9cd992bd3d8",
+    "url": "./static/media/image10.2e8c6c4f.jpeg"
+  },
+  {
+    "revision": "08e1f29348bde6971808cde0319bd969",
+    "url": "./static/media/image11.08e1f293.jpeg"
+  },
+  {
+    "revision": "82321a8ecbad2dd626636b91866a7141",
+    "url": "./static/media/image12.82321a8e.jpeg"
+  },
+  {
+    "revision": "15289fd8e7c9633f3a2edc1bcf1fe728",
+    "url": "./static/media/image13.15289fd8.jpeg"
+  },
+  {
     "revision": "ff660cfec016fced76d60f3308287229",
     "url": "./static/media/image2.ff660cfe.jpeg"
   },
@@ -104,11 +100,15 @@ self.__precacheManifest = [
     "url": "./static/media/image8.5ddfde00.jpeg"
   },
   {
+    "revision": "94d71c95190b23f852f298fee7ef12d0",
+    "url": "./static/media/image9.94d71c95.jpeg"
+  },
+  {
     "revision": "120061b4fba0dd94468a11f96fbebda0",
     "url": "./static/media/background-image.120061b4.jpg"
   },
   {
-    "revision": "bd0d34037e7a11c5c66a8a1e00cb3661",
+    "revision": "471262b73094c584ebc186f516275a0e",
     "url": "./index.html"
   }
 ];
