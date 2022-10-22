@@ -1,7 +1,7 @@
 {
   "main.css": "./static/css/main.f5f50c39.chunk.css",
-  "main.js": "./static/js/main.798c67f6.chunk.js",
-  "main.js.map": "./static/js/main.798c67f6.chunk.js.map",
+  "main.js": "./static/js/main.ab43c7ca.chunk.js",
+  "main.js.map": "./static/js/main.ab43c7ca.chunk.js.map",
   "static/js/1.fe244b1e.chunk.js": "./static/js/1.fe244b1e.chunk.js",
   "static/js/1.fe244b1e.chunk.js.map": "./static/js/1.fe244b1e.chunk.js.map",
   "static/js/2.c1dfdf42.chunk.js": "./static/js/2.c1dfdf42.chunk.js",
@@ -9,7 +9,6 @@
   "runtime~main.js": "./static/js/runtime~main.74a8440b.js",
   "runtime~main.js.map": "./static/js/runtime~main.74a8440b.js.map",
   "static/media/logo.jpeg": "./static/media/logo.a681d8fb.jpeg",
-  "static/media/WhatsApp Image 2022-10-19 at 5.40.20 PM (1).jpeg": "./static/media/WhatsApp Image 2022-10-19 at 5.40.20 PM (1).b5f74127.jpeg",
   "static/media/WhatsApp Image 2022-10-19 at 5.40.20 PM (2).jpeg": "./static/media/WhatsApp Image 2022-10-19 at 5.40.20 PM (2).ff660cfe.jpeg",
   "static/media/WhatsApp Image 2022-10-19 at 5.40.20 PM.jpeg": "./static/media/WhatsApp Image 2022-10-19 at 5.40.20 PM.07922eec.jpeg",
   "static/media/WhatsApp Image 2022-10-19 at 5.40.21 PM (1).jpeg": "./static/media/WhatsApp Image 2022-10-19 at 5.40.21 PM (1).17b4f0bc.jpeg",
@@ -29,9 +28,10 @@
   "static/media/WhatsApp Image 2022-10-19 at 5.40.27 PM (2).jpeg": "./static/media/WhatsApp Image 2022-10-19 at 5.40.27 PM (2).eac93cbd.jpeg",
   "static/media/WhatsApp Image 2022-10-19 at 5.40.27 PM.jpeg": "./static/media/WhatsApp Image 2022-10-19 at 5.40.27 PM.68391ac0.jpeg",
   "static/media/WhatsApp Image 2022-10-19 at 5.40.28 PM.jpeg": "./static/media/WhatsApp Image 2022-10-19 at 5.40.28 PM.112f472f.jpeg",
+  "static/media/image1.jpeg": "./static/media/image1.b5f74127.jpeg",
   "static/media/Home.css": "./static/media/background-image.120061b4.jpg",
   "static/css/main.f5f50c39.chunk.css.map": "./static/css/main.f5f50c39.chunk.css.map",
   "index.html": "./index.html",
-  "precache-manifest.247ff3e76f2acda8c53ac8964fb71fca.js": "./precache-manifest.247ff3e76f2acda8c53ac8964fb71fca.js",
+  "precache-manifest.17be7558d77b21c33a62f110cee5d786.js": "./precache-manifest.17be7558d77b21c33a62f110cee5d786.js",
   "service-worker.js": "./service-worker.js"
 }
