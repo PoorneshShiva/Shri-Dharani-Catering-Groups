@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "a68a4fa25077b48b2987",
+    "revision": "50a1e2fe08ac99a0b151",
     "url": "./static/css/main.04455c01.chunk.css"
   },
   {
-    "revision": "a68a4fa25077b48b2987",
-    "url": "./static/js/main.a68a4fa2.chunk.js"
+    "revision": "50a1e2fe08ac99a0b151",
+    "url": "./static/js/main.50a1e2fe.chunk.js"
   },
   {
     "revision": "fe244b1eb13340a2d346",
@@ -22,18 +22,6 @@ self.__precacheManifest = [
   {
     "revision": "a681d8fb3e88a1b1ced2bcb79097d61c",
     "url": "./static/media/logo.a681d8fb.jpeg"
-  },
-  {
-    "revision": "cb1d449b806a7848a22411f7a65e76e9",
-    "url": "./static/media/WhatsApp Image 2022-10-19 at 5.40.21 PM.cb1d449b.jpeg"
-  },
-  {
-    "revision": "2edfcc8c9592d6ddfccc0cbb1fa68444",
-    "url": "./static/media/WhatsApp Image 2022-10-19 at 5.40.22 PM (1).2edfcc8c.jpeg"
-  },
-  {
-    "revision": "5ddfde009e040a984784be6aab22c005",
-    "url": "./static/media/WhatsApp Image 2022-10-19 at 5.40.22 PM.5ddfde00.jpeg"
   },
   {
     "revision": "94d71c95190b23f852f298fee7ef12d0",
@@ -104,11 +92,23 @@ self.__precacheManifest = [
     "url": "./static/media/image5.c70561e7.jpeg"
   },
   {
+    "revision": "cb1d449b806a7848a22411f7a65e76e9",
+    "url": "./static/media/image6.cb1d449b.jpeg"
+  },
+  {
+    "revision": "2edfcc8c9592d6ddfccc0cbb1fa68444",
+    "url": "./static/media/image7.2edfcc8c.jpeg"
+  },
+  {
+    "revision": "5ddfde009e040a984784be6aab22c005",
+    "url": "./static/media/image8.5ddfde00.jpeg"
+  },
+  {
     "revision": "120061b4fba0dd94468a11f96fbebda0",
     "url": "./static/media/background-image.120061b4.jpg"
   },
   {
-    "revision": "f30e6638f7d831536ff7505a652e72c2",
+    "revision": "bd0d34037e7a11c5c66a8a1e00cb3661",
     "url": "./index.html"
   }
 ];
