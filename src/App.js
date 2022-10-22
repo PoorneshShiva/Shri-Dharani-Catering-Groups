@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Contact from "./components/Contact/Contact";
+import { HashRouter } from "react-router-dom";
 import Gallery from "./components/Gallery/Gallery";
 import Home from "./components/Home/Home";
 import Menu from "./components/Menu/Menu";
@@ -12,20 +13,19 @@ import Recruitment from "./components/Recruitment/Recruitment";
 class App extends Component {
 	render() {
 		return (
-			<BrowserRouter>
-				<React.Fragment>
-					<div>
-						<Header />
-					</div>
-				</React.Fragment>
-				<Routes>
-					<Route path="/Shri-Dharani-Catering-Groups/home" element={<Home />} />
-					<Route path="/menu" element={<Menu />} />
-					<Route path="/contact" element={<Contact />} />
-					<Route path="/gallery" element={<Gallery />} />
-					<Route path="/recruitment" element={<Recruitment />} />
-				</Routes>
-			</BrowserRouter>
+			<React.StrictMode>
+				<HashRouter>
+					<Header />
+
+					<Routes>
+						<Route path="/" element={<Home />} />
+						<Route path="/menu" element={<Menu />} />
+						<Route path="/contact" element={<Contact />} />
+						<Route path="/gallery" element={<Gallery />} />
+						<Route path="/recruitment" element={<Recruitment />} />
+					</Routes>
+				</HashRouter>
+			</React.StrictMode>
 		);
 	}
 }

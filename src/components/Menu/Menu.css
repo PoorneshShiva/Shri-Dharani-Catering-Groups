@@ -1,3 +1,34 @@
+@import "../../common.css";
 body {
 	background-image: none !important;
+}
+.Tab-Menu {
+	/* margin: 0 auto; */
+	/* background-color: rgb(99, 99, 166); */
+	display: flex;
+	/* flex-direction: column; */
+	justify-content: center;
+	width: 100%;
+}
+
+.Tab button {
+	margin: 20px 0;
+	width: 200px;
+	height: 40px;
+	border: none;
+	background-color: var(--light-var);
+	font-size: 30px;
+	font-family: var(--special-font);
+}
+.Tab button:last-child {
+	border-left: thin solid rgba(37, 33, 33, 0.669);
+}
+.Tab button:hover {
+	background-color: var(--secondary-color);
+}
+
+.menu-component {
+	background-color: var(--light-var);
+	margin: 0 auto;
+	max-width: 75%;
 }

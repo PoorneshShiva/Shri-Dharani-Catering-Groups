@@ -12,28 +12,34 @@ const MiddleHeader = () => {
 	};
 
 	return (
-		<div r>
+		<div>
 			<div className="hidden">
 				<div id="button">
 					<Button value={<CgMenu />} call={menuClick} />
 				</div>
 				<div className={"mobile-nav-list "}>
-					<a href="/menu">
+					<NavLink to="/menu">
 						<div className="switcher">Menu</div>
-					</a>
-					<a href="/gallery">
+					</NavLink>
+					<NavLink to="/gallery">
 						<div className="switcher">Gallery</div>
-					</a>
-					<a href="/recruitment">
+					</NavLink>
+					<NavLink to="/recruitment">
 						<div className="switcher">Recruitment</div>
-					</a>
-					<a href="/contact">
+					</NavLink>
+					<NavLink to="/contact">
 						<div className="switcher">About us</div>
-					</a>
+					</NavLink>
 				</div>
 			</div>
 
 			<div id="container-middle">
+				<NavLink to="/">
+					<div className="links">
+						{/* <NavLink to="/">Home</NavLink> */}
+						Home
+					</div>
+				</NavLink>
 				<NavLink to="/menu">
 					<div className="links">
 						{/* <NavLink to="/">Home</NavLink> */}
@@ -43,9 +49,7 @@ const MiddleHeader = () => {
 				<NavLink to="/gallery">
 					<div className="links">Gallery</div>
 				</NavLink>
-				<NavLink to="/contact">
-					<div className="links contact">About us</div>
-				</NavLink>
+
 				<NavLink to="/recruitment">
 					<div className="links contact">Recruitment</div>
 				</NavLink>
