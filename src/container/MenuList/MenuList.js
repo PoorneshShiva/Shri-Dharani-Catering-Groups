@@ -5,7 +5,7 @@ import "./MenuList.css";
 const MenuList = (props) => {
 	const [image, setImage] = useState(false);
 	return (
-		<div>
+		<div onClick={() => setImage(!image)}>
 			<div
 				className="menuList"
 				style={{ borderBottom: !image && "thin solid grey" }}
@@ -14,9 +14,7 @@ const MenuList = (props) => {
 
 				<div className="arrow-button">
 					<div>
-						<button onClick={() => setImage(!image)}>
-							{!image ? <BiRightArrow /> : <BiUpArrow />}
-						</button>
+						<button>{!image ? <BiRightArrow /> : <BiUpArrow />}</button>
 					</div>
 				</div>
 			</div>

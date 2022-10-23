@@ -1,3 +1,7 @@
 .nonVeg-menu-container {
 	text-align: center;
 }
+.nonVeg-title {
+	font-family: var(--modern-font);
+	font-size: 26px;
+}

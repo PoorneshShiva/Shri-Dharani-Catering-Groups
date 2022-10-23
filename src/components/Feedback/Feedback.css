@@ -1,0 +1,89 @@
+.form-container {
+	max-width: 600px;
+	/* background-color: red; */
+	margin: 0 auto;
+	text-align: center;
+	padding: 20px;
+}
+.rec-title {
+	font-size: 24px;
+	font-family: var(--heading-font);
+}
+.food-block,
+.service-block {
+	display: flex;
+	font-family: var(--special-font);
+	font-size: 20px;
+	justify-content: space-between;
+}
+.food-block label,
+.service-block label {
+	margin: auto;
+}
+
+.age-block label,
+.number-block label,
+.gender-block label,
+.email-block label {
+	display: block;
+	padding: 20px 0;
+	font-family: var(--special-font);
+	font-size: 20px;
+}
+.food-block,
+.service-block,
+.age-block,
+.number-block,
+.gender-block,
+.email-block {
+	margin-bottom: 20px;
+}
+.food-block input,
+.service-block input,
+.number-block input,
+.gender-block input,
+.email-block input {
+	width: 80%;
+	font-size: 16px;
+	height: 30px;
+}
+
+.gender-block {
+	display: block;
+	text-align: center;
+	max-width: 600px;
+}
+.gender-block select {
+	display: block;
+	height: 35px;
+	width: 120px;
+	/* margin-top: 20px; */
+}
+.age-block input {
+	width: 30%;
+	font-size: 16px;
+	height: 30px;
+}
+.combo-block {
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	/* column-gap: 10px; */
+}
+#submit {
+	border: none;
+	background-color: var(--primary-color);
+	height: 30px;
+	border-radius: 10%;
+	width: 120px;
+}
+.right {
+	cursor: pointer;
+	display: flex;
+}
+
+@media (max-width: 331px) {
+	.gender-block {
+		text-align: center;
+	}
+}

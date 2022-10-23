@@ -3,7 +3,7 @@ import MenuList from "../../container/MenuList/MenuList";
 import "./NonVeg.css";
 const NonVeg = () => {
 	const nonVegItems = {
-		"Mango Samsum Roll":
+		" Green Lentil Masal Vadai":
 			"https://th.bing.com/th/id/R.457cb97b08f6bf71c21f586d45a2dbdb?rik=a5KgWHthIoFRGw&pid=ImgRaw&r=0",
 
 		"Bambo Jangiri":
@@ -48,7 +48,9 @@ const NonVeg = () => {
 	};
 	return (
 		<div className="nonVeg-menu-container">
-			<div className="nonVeg-title">Non Vegetarian</div>
+			<div className="nonVeg-title">
+				<h1>Non-Vegetarian</h1>
+			</div>
 			<div className="nonVeg-menu-list">
 				{Object.keys(nonVegItems).map((each) => (
 					<MenuList value={each} imageUrl={nonVegItems[each]} />

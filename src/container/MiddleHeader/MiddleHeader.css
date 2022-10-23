@@ -39,7 +39,7 @@ a {
 }
 .hidden button {
 	border: 0px transparent;
-	background-color: var(--primary-color);
+	background-color: transparent;
 	height: 35px;
 	width: 100%;
 	font-size: 45px;

@@ -5,6 +5,8 @@ import "./Veg.css";
 
 const Veg = () => {
 	const vegItems = {
+		"Green Lentil Masal Vadai":
+			"https://www.kannammacooks.com/wp-content/uploads/moonu-paruppu-masal-vadai-1-4.jpg",
 		"Mango Samsum Roll":
 			"https://th.bing.com/th/id/R.457cb97b08f6bf71c21f586d45a2dbdb?rik=a5KgWHthIoFRGw&pid=ImgRaw&r=0",
 
@@ -51,7 +53,9 @@ const Veg = () => {
 
 	return (
 		<div className="veg-menu-container">
-			<div className="veg-title">Vegetarian</div>
+			<div className="veg-title">
+				<h1>Vegetarian</h1>
+			</div>
 			<div className="veg-menu-list">
 				{Object.keys(vegItems).map((each, index) => (
 					<MenuList id={index} value={each} imageUrl={vegItems[each]} />

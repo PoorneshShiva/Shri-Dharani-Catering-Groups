@@ -9,6 +9,7 @@ import Header from "./container/Header/Header";
 import MiddleHeader from "./container/MiddleHeader/MiddleHeader";
 import "./App.css";
 import Recruitment from "./components/Recruitment/Recruitment";
+import Feedback from "./components/Feedback/Feedback";
 
 class App extends Component {
 	render() {
@@ -23,6 +24,7 @@ class App extends Component {
 						<Route path="/contact" element={<Contact />} />
 						<Route path="/gallery" element={<Gallery />} />
 						<Route path="/recruitment" element={<Recruitment />} />
+						<Route path="/feedback" element={<Feedback />} />
 					</Routes>
 				</HashRouter>
 			</React.StrictMode>

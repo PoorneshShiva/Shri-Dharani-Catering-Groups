@@ -18,62 +18,18 @@ const Gallery = () => {
 		)
 	);
 	const pictures = {
-		image1: ["./images/gallery-images/image1.jpeg", "Descp"],
-		image2: [
-			"/static/media/WhatsApp Image 2022-10-19 at 5.40.20 PM (2).ff660cfe.jpeg",
-			"Descp",
-		],
-		image3: [
-			"/static/media/WhatsApp Image 2022-10-19 at 5.40.20 PM.07922eec.jpeg",
-			"Descp",
-		],
+		image1: ["./images/gallery-images/image1.jpeg", "Fresh Mushroom"],
+		image2: ["./images/gallery-images/image2.jpeg", "Vada"],
 
-		image5: [
-			"/static/media/WhatsApp Image 2022-10-19 at 5.40.21 PM (2).c70561e7.jpeg",
-			"Descp",
-		],
+		image5: ["./images/gallery-images/image14.jpeg", "Almonds and Nuts"],
 
-		image10: [
-			"/static/media/WhatsApp Image 2022-10-19 at 5.40.23 PM (2).2e8c6c4f.jpeg",
-			"Descp",
-		],
-		image11: [
-			"/static/media/WhatsApp Image 2022-10-19 at 5.40.23 PM.08e1f293.jpeg",
-			"Descp",
-		],
+		image8: ["./images/gallery-images/image17.jpeg", "Event Management-1"],
+		image9: ["./images/gallery-images/image18.jpeg", "Event Management-2"],
 
-		image13: [
-			"/static/media/WhatsApp Image 2022-10-19 at 5.40.24 PM.15289fd8.jpeg",
-			"Descp",
-		],
-		image14: [
-			"/static/media/WhatsApp Image 2022-10-19 at 5.40.25 PM.90d3e836.jpeg",
-			"Descp",
-		],
-		image15: [
-			"/static/media/WhatsApp Image 2022-10-19 at 5.40.26 PM (1).e4943588.jpeg",
-			"Descp",
-		],
-		image16: [
-			"/static/media/WhatsApp Image 2022-10-19 at 5.40.26 PM.97445b41.jpeg",
-			"Descp",
-		],
-		image17: [
-			"/static/media/WhatsApp Image 2022-10-19 at 5.40.27 PM (1).3fc6b1f9.jpeg",
-			"Descp",
-		],
-		image18: [
-			"/static/media/WhatsApp Image 2022-10-19 at 5.40.27 PM (2).eac93cbd.jpeg",
-			"Descp",
-		],
-		image19: [
-			"/static/media/WhatsApp Image 2022-10-19 at 5.40.27 PM.68391ac0.jpeg",
-			"Descp",
-		],
-		image20: [
-			"/static/media/WhatsApp Image 2022-10-19 at 5.40.28 PM.112f472f.jpeg",
-			"Descp",
-		],
+		image11: ["./images/gallery-images/image5.jpeg", "Mushroom Manchurian"],
+
+		image20: ["./images/gallery-images/image13.jpeg", "Fresh Fish"],
+		image17: ["./images/gallery-images/image10.jpeg", "Fish Fry"],
 	};
 	const postsItems = [];
 	Object.values(pictures).forEach((each, index) => {

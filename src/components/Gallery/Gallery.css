@@ -19,6 +19,7 @@
 }
 .gallery-title {
 	font-family: var(--modern-font);
+	font-size: 26px;
 }
 
 .image img {
